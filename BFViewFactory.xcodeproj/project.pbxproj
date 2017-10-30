@@ -15,6 +15,8 @@
 		A846950C1FA46ADC009D1185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A846950B1FA46ADC009D1185 /* main.m */; };
 		A84695161FA46ADC009D1185 /* BFViewFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84695151FA46ADC009D1185 /* BFViewFactoryTests.m */; };
 		A84695211FA46ADC009D1185 /* BFViewFactoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84695201FA46ADC009D1185 /* BFViewFactoryUITests.m */; };
+		A84695311FA47341009D1185 /* BFMutableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A84695301FA47341009D1185 /* BFMutableLabel.m */; };
+		A84695331FA47356009D1185 /* BFMutableLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84695321FA47356009D1185 /* BFMutableLabel.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		A846951C1FA46ADC009D1185 /* BFViewFactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFViewFactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84695201FA46ADC009D1185 /* BFViewFactoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFViewFactoryUITests.m; sourceTree = "<group>"; };
 		A84695221FA46ADC009D1185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A846952F1FA47341009D1185 /* BFMutableLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFMutableLabel.h; sourceTree = "<group>"; };
+		A84695301FA47341009D1185 /* BFMutableLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFMutableLabel.m; sourceTree = "<group>"; };
+		A84695321FA47356009D1185 /* BFMutableLabel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BFMutableLabel.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		A84694FB1FA46ADB009D1185 /* BFViewFactory */ = {
 			isa = PBXGroup;
 			children = (
+				A846952E1FA472FC009D1185 /* BFView */,
 				A84694FC1FA46ADB009D1185 /* AppDelegate.h */,
 				A84694FD1FA46ADB009D1185 /* AppDelegate.m */,
 				A84694FF1FA46ADB009D1185 /* ViewController.h */,
@@ -130,6 +136,16 @@
 				A84695221FA46ADC009D1185 /* Info.plist */,
 			);
 			path = BFViewFactoryUITests;
+			sourceTree = "<group>";
+		};
+		A846952E1FA472FC009D1185 /* BFView */ = {
+			isa = PBXGroup;
+			children = (
+				A846952F1FA47341009D1185 /* BFMutableLabel.h */,
+				A84695301FA47341009D1185 /* BFMutableLabel.m */,
+				A84695321FA47356009D1185 /* BFMutableLabel.xib */,
+			);
+			path = BFView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A84695091FA46ADB009D1185 /* LaunchScreen.storyboard in Resources */,
+				A84695331FA47356009D1185 /* BFMutableLabel.xib in Resources */,
 				A84695061FA46ADB009D1185 /* Assets.xcassets in Resources */,
 				A84695041FA46ADB009D1185 /* Main.storyboard in Resources */,
 			);
@@ -266,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A84695011FA46ADB009D1185 /* ViewController.m in Sources */,
+				A84695311FA47341009D1185 /* BFMutableLabel.m in Sources */,
 				A846950C1FA46ADC009D1185 /* main.m in Sources */,
 				A84694FE1FA46ADB009D1185 /* AppDelegate.m in Sources */,
 			);
